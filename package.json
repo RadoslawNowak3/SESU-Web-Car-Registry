@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "scripts": {
+    "start": "node .index",
+    "dev": "nodemon .index"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "aws-sdk": "^2.980.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "commonjs": "0.0.1",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2",
+    "mongoose-gridfs": "^1.2.48",
+    "multer": "^1.4.3",
+    "node": "^16.4.0",
+    "nodejs": "0.0.0",
+    "nodemon": "^2.0.12",
+    "react-router-dom": "^5.2.0",
+    "react-select": "^4.3.1"
+  }
+}
